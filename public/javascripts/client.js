@@ -1,4 +1,4 @@
-function hitme(params) {
+function hitme(color) {
     console.log("Sending");
     fetch('/messages/',{
         headers: {
@@ -7,7 +7,7 @@ function hitme(params) {
         },
         method:'post',
         body:JSON.stringify({
-            is:'alive!'
+            color:color
         })
     })
     console.log("Sended");

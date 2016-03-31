@@ -7,7 +7,8 @@ function hitme(color) {
         },
         method:'post',
         body:JSON.stringify({
-            color:color
+            color:color,
+            id: Math.floor(Math.random() * 100)
         })
     })
     console.log("Sended");

@@ -1,6 +1,6 @@
 function hitme(color) {
     console.log("Sending");
-    for (i = 0; i < 2000; i++) {
+    for (i = 0; i < 20; i++) {
         fetch('/messages/',{
             headers: {
             'Accept':'application/json',

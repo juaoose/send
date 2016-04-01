@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { 
     title: 'Uniandes Cloud Week!',
-    color:  '#000000'
+    color:  '#ffffff'
   });
 });
 

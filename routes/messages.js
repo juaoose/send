@@ -27,7 +27,7 @@ router.post('/', function(req, res, next) {
             message: {
                 color: color
             },
-            deviceId: 'Clouderino'
+            deviceId: id
         }).then(function () {
             console.info('message sended');
         }).catch(function (error) {

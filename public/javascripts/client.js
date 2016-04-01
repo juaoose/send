@@ -9,7 +9,7 @@ function hitme(color) {
             method:'post',
             body:JSON.stringify({
                 color:color,
-                id: Math.floor(Math.random() * 100)
+                id: 1337
             })
         })
     }
